@@ -2,7 +2,6 @@
 
 A simple yet powerful Chrome extension that allows users to collapse or hide tweets containing specific keywords or symbols (e.g., 🧵) on Twitter's homepage.
 
----
 
 ## **Features**
 
@@ -13,7 +12,6 @@ A simple yet powerful Chrome extension that allows users to collapse or hide twe
 - Only runs on the Twitter homepage (`https://x.com/home`).
 - Lightweight and efficient with minimal resource usage.
 
----
 
 ## **Installation**
 
@@ -26,7 +24,6 @@ A simple yet powerful Chrome extension that allows users to collapse or hide twe
 ### **From Chrome Web Store**
 > Pending review and approval. Once available, download it directly from the Chrome Web Store.
 
----
 
 ## **Usage**
 
@@ -39,7 +36,6 @@ A simple yet powerful Chrome extension that allows users to collapse or hide twe
    - Add, remove, or modify the keywords.
 5. Matching tweets will be processed in real-time based on your settings.
 
----
 
 ## **Settings**
 
@@ -49,20 +45,17 @@ A simple yet powerful Chrome extension that allows users to collapse or hide twe
   - Add new keywords by typing them in the input box and clicking "Add Keyword."
   - Delete keywords from the list with a single click.
 
----
 
 ## **Known Limitations**
 
 - The extension currently only works on the Twitter homepage (`https://x.com/home`).
 - The detection for `🧵` is based on the `<img>` tag's `alt` attribute. Future Twitter updates may require adjustments.
 
----
 
 ## **License**
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
----
 
 ## **Contact**
 
