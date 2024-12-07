@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>插件设置</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #2c2c2c;
+      color: white;
+      padding: 20px;
+      font-size: 18px; /* 字体整体调大 */
+    }
+    label {
+      margin-right: 10px;
+    }
+    input[type="checkbox"], input[type="text"] {
+      margin-right: 5px;
+      font-size: 16px; /* 提高输入框字体大小 */
+    }
+    .keyword-list {
+      margin-top: 10px;
+    }
+    .keyword-item {
+      margin-bottom: 10px;
+      display: flex; /* 使用 Flex 布局实现按钮间距 */
+      align-items: center;
+    }
+    .keyword-item span {
+      margin-right: 10px; /* 关键字与删除按钮的间距 */
+    }
+    .keyword-item button {
+      font-size: 16px;
+      padding: 5px 10px;
+      cursor: pointer;
+      background-color: #444;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      margin-left: 10px; 
+    }
+    .keyword-item button:hover {
+      background-color: #666; /* 增加 hover 效果 */
+    }
+    #add-keyword {
+        font-size: 16px;
+        padding: 5px 10px;
+        cursor: pointer;
+        background-color: #444;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+
+    #add-keyword:hover {
+        background-color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>插件设置</h1>
+  <label for="toggle-hide-threads">
+    <input type="checkbox" id="toggle-hide-threads"> 隐藏符合关键字的推文（默认不勾选，表示折叠符合关键字的推文）
+  </label>
+  
+  <div class="keyword-settings">
+    <h2>关键字设置</h2>
+    <div class="keyword-list" id="keyword-list"></div>
+    <input type="text" id="new-keyword" placeholder="输入关键字">
+    <button id="add-keyword">添加关键字</button>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

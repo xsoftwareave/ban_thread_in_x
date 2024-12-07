@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "BTX - Ban Thread in X",
+    "description": "隐藏或折叠推特首页包含 🧵 或其他关键字的推文",
+    "icons": {
+        "16": "icons/bt16.png",
+        "48": "icons/bt48.png",
+        "128": "icons/bt128.png"
+      },
+    "version": "1.0",
+    "permissions": ["storage"],
+    "options_page": "options.html",
+    "content_scripts": [
+      {
+        "matches": ["https://x.com/home"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

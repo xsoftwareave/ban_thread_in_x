@@ -1,0 +1,13 @@
+/* 调整按钮的位置 */
+.tweet-toggle-button {
+    margin: 0 10px 10px 0; /* 左侧紧挨推文 */
+    cursor: pointer;
+    background: #2c2c2c;
+    color: #f0f0f0;
+    border: 1px solid #444;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    float: left; /* 确保按钮靠左显示 */
+}
